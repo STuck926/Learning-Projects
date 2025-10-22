@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        #green-button {
+            background-color: green;
+            ;
+        }
+
+        #red-button {
+            background-color: red;
+        }
+
+        #blue-button {
+            background-color: blue;
+        }
+
+        #random-button {
+            background: linear-gradient(to right, pink, purple);
+        }
+
+        button {
+            vertical-align: middle;
+            border-radius: 5px;
+            width: 100px;
+            height: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Color Flipper</h3>
+    <button id="green-button" onclick="setColor('green')">Green</button>
+    <button id="red-button" onclick="setColor('red')">Red</button>
+    <button id="blue-button" onclick="setColor('blue')">Blue</button>
+    <button id="random-button" onclick="randomColor()">Random Gradient</button>
+    <script src="index.js"></script>
+</body>
+
+</html>
